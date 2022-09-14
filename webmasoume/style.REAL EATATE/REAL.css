@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 5px;
+    margin: 5px;
+    color: blue;
+}
+.description {
+    border:  solid silver;
+    margin: 5px;
+    border-radius: 10px;
+    border-bottom: solid black;
+}
+.se1{
+    padding: 10px;
+    margin: 10px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
+.item{
+    background-color: rgb(150, 146, 146);
+    border-radius: 5px;
+    width: 220px;
+    height: 250px;
+    margin: 1% 5%;
+    display: block;
+    text-align: center;
+    margin: 2% auto 0% !important;
+}
+.item img{
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+}
+.item p{
+    font-size: 18px;
+    padding: 2% auto;
+    margin: 2% auto;
+}
+.item button{
+    background-color: rgb(246, 169, 182);
+    color: white;
+    border: 1px solid rgb(226, 94, 116);
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0% auto;
+}
+/* bying a house page */
+.houses{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    align-content: space-between;
+}
+.house{
+    background-color: rgb(150, 146, 146);
+    border-radius: 5px;
+    width: 200px;
+    height: 220px;
+    margin: 1% 5%;
+    display: block;
+    text-align: center;
+    margin: 2% auto 0% !important;
+}
+.house img{
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+}
+.house p{
+    font-size: 18px;
+    padding: 2% auto;
+    margin: 2% auto;
+}
+.house button{
+    background-color: rgb(246, 169, 182);
+    color: white;
+    border: 1px solid rgb(226, 94, 116);
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0% auto;
+}
+.tips{
+    border:  solid silver;
+    margin: 40px;
+    border-radius: 10px;
+    border-top: solid black;
+    padding: 40px;
+}
+.tips div h2{
+    font-size: 18px;
+}
+.tips div p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* apartment page */
+.apartments{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+}
+.apartment{
+    background-color: rgb(150, 146, 146);
+    border-radius: 5px;
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    margin: 2% auto 0% !important;
+    justify-content: center;
+
+}
+.apartment img{
+    max-width: 170px;
+    height: auto;
+    margin: 2%;
+    justify-content: center;
+}
+.apartment p{
+    font-size: 18px;
+    padding: 5px;
+    margin: 2% 2%;
+    justify-content: center;
+}
+.apartment button{
+    background-color: rgb(246, 169, 182);
+    color: white;
+    border: 1px solid rgb(226, 94, 116);
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    margin:  2px;
+    justify-content: center;
+}
+.text{
+    border: solid silver;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 8% 8%;
+
+    
+    
+}
+.hr{
+    display: flex;
+    color: black;
+}
+.h3{
+     flex-direction: column;
+}
+/* land page */
+.lands{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+}
+.land{
+    background-color: rgb(150, 146, 146);
+    border-radius: 5px;
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    margin: 2% auto 0% !important;
+    justify-content: center;
+}
+.land img{
+    max-width: 170px;
+    height: auto;
+    margin: 2%;
+    justify-content: center;
+}
+.land p{
+    font-size: 18px;
+    padding: 5px;
+    margin: 2% 2%;
+    justify-content: center;
+}
+.land button{
+    background-color: rgb(246, 169, 182);
+    color: white;
+    border: 1px solid rgb(226, 94, 116);
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    margin:  2px;
+    justify-content: center;
+}
+/* table */
+table{
+    width: 80%;
+    margin: 2% auto;
+    border: 1px solid black;
+}
+td,tr{
+    border: 1px solid black;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .description,.se1,.item,.items,.tips,.apartment,.apartments,.houses,.house,.lands,.land{
+        display: block;
+    }
+    table{
+        width: 90%;
+    }
+    nav{
+        display: block;
+    }
+}
+@media screen and (max-width:992px) {
+    .description,.se1,.item,.items,.tips,.apartment,.apartments,.houses,.house,.lands,.land{
+        display: block;
+    }
+    table{
+        width: 90%;
+    }
+    nav{
+        display: block;
+    }
+}
